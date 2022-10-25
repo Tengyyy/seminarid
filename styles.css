@@ -1,0 +1,43 @@
+#pealkiri {
+    font-weight: bold;
+    font-size: 50px;
+    font-family: "Comic Sans MS", sans-serif;
+    color: crimson;
+}
+
+p {
+    font-family: "Bauhaus 93", monospace;
+    color: darkblue;
+    text-align: center;
+    font-size: 25px;
+}
+
+img, table {
+    border-style: dashed;
+    border-color: deeppink;
+    border-width: 5px;
+    border-radius: 5px;
+}
+
+
+th {
+    background-color: cyan;
+    font-weight: bold;
+    font-size: 25px;
+    transition: background-color 1s;
+}
+
+th:hover {
+    background-color: darkgreen;
+}
+
+tr {
+    background-color: lightblue;
+    font-size: 20px;
+}
+
+body {
+    background-image: url("background.jpg");
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
